@@ -3,17 +3,17 @@ Documentació d'integració del servei DGP del Consorci AOC.
 
 # **Índex** #
 
-1. [Introducció]
-2. [Transmissions de dades disponibles]
-3. [Missatgeria del servei]
-   1. [Consulta de dades d’identitat (IDENTITAT_DADES)]
-      1. [Petició – dades genèriques]
-      2. [Petició – dades específiques]
-      3. [Resposta – dades específiques]
-   2. Verificació de dades d’identitat (IDENTITAT_VERIFICACIO)
-      1. [Petició – dades genèriques]
-      2. [Petició – dades específiques]
-      3. [Resposta – dades específiques]
+1. [Introducció](#1)
+2. [Transmissions de dades disponibles](#2)
+3. [Missatgeria del servei](#3)
+   1. [Consulta de dades d’identitat (IDENTITAT_DADES)](#3.1)
+      1. [Petició – dades genèriques](#3.1.1)
+      2. [Petició – dades específiques](#3.1.2)
+      3. [Resposta – dades específiques](#3.1.3)
+   2. Verificació de dades d’identitat (IDENTITAT_VERIFICACIO)(#3.2)
+      1. [Petició – dades genèriques](#3.2.1)
+      2. [Petició – dades específiques](#3.2.2)
+      3. [Resposta – dades específiques](#3.2.3)
 
 # 1 Introducció <a name="1"></a>
 
