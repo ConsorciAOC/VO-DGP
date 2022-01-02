@@ -63,6 +63,10 @@ Consulta de dades d'identitat.
 
 ### 3.1.2 Petició – dades específiques <a name="3.1.2"></a>
 
+<p align="center">
+<img align="center" src="img/3.1.2.png" />
+</p>
+
 | _Element_ | _Descripció_ |
 | --- | --- |
 /peticioConsultaDadesIdentitat/numeroSuport | Conté informació per realitzar la consulta sobre un determinat número de suport. La codificació del numero de suport, dependrà del tipus de ciutadà:<ul><li>Ciutadà espanyol: correspon al camp IDESP del DNIe: 3 caràcters alfanumèrics + 6 dígits (p.e:AAA123456)</li><li>Ciutadà estranger comunitari: C + 8 dígits (on els dígits es corresponen al número de certificat comunitari)</li><li>Ciutadà estranger: E + 8 dígits (on els dígits coincideixen al número de targeta d'identificació estrangera)</li></ul>
@@ -95,6 +99,10 @@ El camp numeroSuport serà obligatori si el ciutadà és estranger i no s'ha int
 //dniNacionalitzat |
 /respostaConsultaDadesIdentitat/resultat/codiResultat | Codi de resultat de l'operació:<ul><li>00: operació realitzada correctament.</li><li>altrament: error realitzant l'operació. Vegeu apartat d'aquest document.</li></ul>
 /respostaConsultaDadesIdentitat/resultat/descripcio | Descripció del resultat.
+
+<p align="center">
+<img align="center" src="img/3.1.3.png" />
+</p>
 
 #### 3.1.3.1 Codis d'error
 
@@ -130,6 +138,10 @@ Verificació de les dades d'identitat. Aquesta consulta substitueix la necessita
 
 ### 3.2.2 Petició – dades específiques <a name="3.2.2"></a>
 
+<p align="center">
+<img align="center" src="img/3.2.2.png" />
+</p>
+
 | _Element_ | _Descripció_ |
 | --- | --- |
 /peticioVerificacioIdentitat/numeroSuport | Número suport del titular. La codificació del número de suport, dependrà del tipus de ciutadà:<ul><li>Ciutadà espanyol: correspon al camp IDESP del DNIe: 3 caràcters alfanumèrics + 6 dígits (p.e:AAA123456)</li><li>Ciutadà estranger comunitari: C + 8 dígits (on els dígits es corresponen al número de certificat comunitari)</li><li>Ciutadà estranger: E + 8 dígits (on els dígits coincideixen al número de targeta d'identificació estrangera)</li></ul>
@@ -139,6 +151,10 @@ Verificació de les dades d'identitat. Aquesta consulta substitueix la necessita
 //dadesNaixement/pais | Codi del país de naixement del titular de la sol·licitud. Aquest bloc va codificat segons la codificació ISO 3166-1 Alpha de la normativa OACI (o ICAO en anglès) que codifica amb 3 caràcters tots els països i nacionalitats.
 
 ### 3.2.3 Resposta – dades específiques <a name="3.2.3"></a>
+
+<p align="center">
+<img align="center" src="img/3.2.3.png" />
+</p>
 
 | _Element_ | _Descripció_ |
 | --- | --- |
