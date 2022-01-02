@@ -10,7 +10,7 @@ Documentació d'integració del servei DGP del Consorci AOC.
       1. [Petició – dades genèriques](#3.1.1)
       2. [Petició – dades específiques](#3.1.2)
       3. [Resposta – dades específiques](#3.1.3)
-   2. Verificació de dades d’identitat (IDENTITAT_VERIFICACIO)(#3.2)
+   2. [Verificació de dades d’identitat (IDENTITAT_VERIFICACIO)](#3.2)
       1. [Petició – dades genèriques](#3.2.1)
       2. [Petició – dades específiques](#3.2.2)
       3. [Resposta – dades específiques](#3.2.3)
