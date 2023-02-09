@@ -162,9 +162,9 @@ Verificació de les dades d'identitat. Aquesta consulta substitueix la necessita
 
 | _Element_ | _Descripció_ |
 | --- | --- |
-/respostaVerificacioIdentitat/peticioVerificacioIdentitat | Bloc de dades corresponent a la petició que origina la resposta.
-/respostaVerificacioIdentitat/resultat/codiResultat | Codi de resultat de l'operació:<ul><li>00: operació realitzada correctament.</li><li>altrament: error realitzant l'operació. Vegeu apartat 3.2.3.1 d'aquest document.</li></ul>
-/respostaVerificacioIdentitat/resultat/descripcio | Descripció del resultat.
+/respostaVerificacioDadesIdentitat/peticioVerificacioIdentitat | Bloc de dades corresponent a la petició que origina la resposta.
+/respostaVerificacioDadesIdentitat/resultat/codiResultat | Codi de resultat de l'operació:<ul><li>00: operació realitzada correctament.</li><li>altrament: error realitzant l'operació. Vegeu apartat 3.2.3.1 d'aquest document.</li></ul>
+/respostaVerificacioDadesIdentitat/resultat/descripcio | Descripció del resultat.
 
 #### 3.2.3.1 Codis d'error
 
