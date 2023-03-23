@@ -76,11 +76,11 @@ Consulta de dades d'identitat.
 /peticioConsultaDadesIdentitat/numeroSuport | Conté informació per realitzar la consulta sobre un determinat número de suport. La codificació del numero de suport, dependrà del tipus de ciutadà:<ul><li>Ciutadà espanyol: correspon al camp IDESP del DNIe: 3 caràcters alfanumèrics + 6 dígits (p.e:AAA123456)</li><li>Ciutadà estranger comunitari: C + 8 dígits (on els dígits es corresponen al número de certificat comunitari)</li><li>Ciutadà estranger: E + 8 dígits (on els dígits coincideixen al número de targeta d'identificació estrangera)</li></ul>
 /peticioConsultaDadesIdentitat/anyNaixement | Si no s'especifica l'element Apellido1 de les dades genèriques cal informar aquest camp.
 
-```
-El camp numeroSuport serà obligatori si el ciutadà és estranger i no s'ha introduït el NIE en el bloc //DatosGenericos/Titular/Documentacion.
 
- Cal tenir en compte que el camp que identifica de forma inequívoca a un ciutadà estranger en l'estat espanyol és el TIE. Per tant, si en la consulta s'introdueix el NIE la resposta del sistema pot ser que no sigui l'esperada: es podria donar el cas, per exemple, que es donessin dos registres associats al mateix NIE. Així doncs, per evitar aquestes respostes no esperades, es recomana introduir el TIE en el cas d'un ciutadà estranger.
-```
+El camp numeroSuport serà obligatori si el ciutadà és estranger i no s'ha introduït el NIE en el bloc `//DatosGenericos/Titular/Documentacion`.
+
+Cal tenir en compte que el camp que identifica de forma inequívoca a un ciutadà estranger en l'estat espanyol és el TIE. Per tant, si en la consulta s'introdueix el NIE la resposta del sistema pot ser que no sigui l'esperada: es podria donar el cas, per exemple, que es donessin dos registres associats al mateix NIE. Així doncs, per evitar aquestes respostes no esperades, es recomana introduir el TIE en el cas d'un ciutadà estranger.
+
 
 ### 3.1.3 Resposta – dades específiques <a name="3.1.3"></a>
 
