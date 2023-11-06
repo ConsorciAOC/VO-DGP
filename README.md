@@ -114,17 +114,27 @@ A continuació s'especifica la correspondència entre els codi d'error i la desc
 
 | _Codi_ | _Descripció_ |
 | --- | --- |
-0A | DNI del titular anul·lat.
-0I | Nacionalitzat espanyol. En aquest cas, s'ha d'especificar el DNI.
-0Q | Nacionalitzat espanyol però no consta el DNI.
-16 | Número de suport erroni. El número de suport no es correspon a la documentació especificada.
-59 | El document sol·licitat està en tràmit de renovació, retingut, retirat per autoritat judicial o anul·lat per duplicitat.
-67 | DNI no assignat.
-68 | Titular no identificat.
-81 | Número de suport inexistent.
-86 | NIE inexistent.
-87 | NIE erroni o duplicat. Existeixen més d'un registre per les dades proporcionades per l'usuari.
-0502 | Error realitzant l'operació. El detall de l'error apareix al bloc descripció.
+0A (DNI) |	DNI del titular anul·lat.
+02 (NIE) |	Número de suport no comença per E o C. Número de suport erroni.
+16 (DNI) |	Número de suport erroni. El número de suport no es correspon a la documentació especificada.
+59 (DNI) |	El document sol·licitat està en tràmit de renovació, retingut, retirat per autoritat judicial o anul·lat per duplicitat.<br> Aquest error es dona quan la policia marca aquests DNI per impedir-ne la renovació fins a resoldre alguna incidència vigent. Contacteu amb udea.ws@policia.es per obtenir més detalls sobre aquest document. Mai aquest contacte és per comunicar-lo al ciutadà, sinó per obtenir més detall per part del funcionari o gestor. En aquest cas, al ciutadà (persona física o jurídica) se li ha d'indicar que hi ha un problema amb la seva documentació i cal que es personi a la comissaria més propera per a la seva esmena (no cal cita prèvia).
+67 (DNI) |	DNI no assignat.
+68 (DNI) |	DNI titular no identificat.
+70 (NIE) |	NIE no existeix.
+71 (NIE) |	Nacionalitzat espanyol. Nacionalitzat espanyol i existeixen diverses filiacions. En aquest cas, s’ha d’especificar el DNI.
+72 (NIE) |	Existeixen diverses filiacions. Per solucionar-ho introduïu més informació a la petició. Si es tracta d'un ciutadà estranger a més d'indicar el NIE, indiqueu el número de suport de les dades específiques el TIE per al cas d'estrangers no comunitaris.
+73 (NIE) |	NIE no correspon amb el NIE associat al darrer Suport de la persona.
+74 (NIE) |	Número de Suport erroni.
+75 (NIE) |	NIE anul·lat, retingut o retornat social / voluntari.
+76 (NIE) |	NIE sense suport vàlid.
+77 (NIE) |	NIE no correspon amb targeta / certificat.
+78 (NIE) |	Número de targeta / certificat no existeix.
+79 (NIE) |	Certificat repetit.
+80 (DNI) |	Número de suport del DNI erroni.
+80 (NIE) |	Nacionalitzat espanyol però no consta el DNI.
+83 (NIE) |	Existeixen diverses filiacions pel document.
+86 (NIE) |	Menor no acompanyat (MENA actiu).
+0502	 |   Error realitzant l’operació. El detall de l’error apareix al bloc descripció.
 
 ## 3.2 Verificació de dades d'identitat (IDENTITAT\_VERIFICACIO) <a name="3.2"></a>
 
@@ -172,23 +182,33 @@ A continuació s'especifica la correspondència entre els codi d'error i la desc
 
 | _Codi_ | _Descripció_ |
 | --- | --- |
-0A | DNI del titular anul·lat.
-0I | Nacionalitzat espanyol. En aquest cas, s'ha d'especificar el DNI.
-16 | Número de suport erroni. El número de suport no es correspon a la documentació especificada.
-59 | El document sol·licitat està en tràmit de renovació, retingut, retirat per autoritat judicial o anul·lat per duplicitat.
-67 | DNI no assignat.
-68 | Titular no identificat.
-69 | El nom del titular no coincideix amb la dada verificada.
-70 | El primer cognom del titular no coincideix amb la dada verificada.
-71 | El segon cognom no coincideix amb la dada verificada.
-72 | La data de naixement del titular no coincideix amb la dada verificada.
-73 | El sexe del titular no coincideix amb la dada verificada.
-75 | La província de naixement del titular no coincideix amb la dada verificada.
-76 | El país de naixement del titular no coincideix amb la dada verificada.
-81 | Número de suport inexistent.
-86 | NIE inexistent.
-87 | NIE erroni o duplicat. Existeixen més d'un registre per les dades proporcionades per l'usuari.
-0502 | Error realitzant l'operació. El detall de l'error apareix al bloc descripció.
+0A (DNI) |	DNI del titular anul·lat.
+16 (DNI) |	Número de suport erroni. El número de suport no es correspon a la documentació especificada.
+59 (DNI) |	El document sol·licitat està en tràmit de renovació, retingut, retirat per autoritat judicial o anul·lat per duplicitat.<br>Aquest error es dona quan la policia marca aquests DNI per impedir-ne la renovació fins a resoldre alguna incidència vigent. Contacteu amb udea.ws@policia.es per obtenir més detalls sobre aquest document. Mai aquest contacte és per comunicar-lo al ciutadà, sinó per obtenir més detall per part del funcionari o gestor. En aquest cas, al ciutadà (persona física o jurídica) se li ha d'indicar que hi ha un problema amb la seva documentació i cal que es personi a la comissaria més propera per a la seva esmena (no cal cita prèvia).
+67 (DNI) |	DNI no assignat.
+69 (DNI) |	El nom del titular no coincideix amb la dada verificada.
+70 (DNI) |	El primer cognom del titular no coincideix amb la dada verificada.
+70 (NIE) |	NIE no existeix.
+71 (DNI) |	El segon cognom no coincideix amb la dada verificada.
+71 (NIE) |	Nacionalitzat espanyol. En aquest cas, s’ha d’especificar el DNI.
+72 (DNI) |	La data de naixement del titular no coincideix amb la dada verificada.
+72 (NIE) |	Existeixen diverses filiacions.
+73 (DNI) |	El sexe del titular no coincideix amb la dada verificada.
+74 (NIE) |	Número de suport erroni.
+75 (DNI) |	La província de naixement del titular no coincideix amb la dada verificada.
+75 (NIE) |	NIE anul·lat, retingut o retornat social / voluntari.
+76 (DNI) |	El país de naixement del titular no coincideix amb la dada verificada.
+76 (NIE) |	NIE sense suport vàlid.
+77 (NIE) |	NIE no correspon amb targeta / certificat.
+78 (NIE) |	Número de targeta / certificat no existeix.
+79 (NIE) |	Certificat repetit.
+80 (DNI) |   Número de suport del DNI erroni.
+80 (NIE) |	Nacionalitzat espanyol però no consta el DNI.
+83 (NIE) |	Existeixen diverses filiacions pel document.
+86 (NIE) |	Menor no acompanyat (MENA actiu).
+87 (NIE) |	Nom no coincideix.
+88 (NIE) |	Data naixement no coincideix.
+0502	 |   Error realitzant l’operació. El detall de l’error apareix al bloc descripció.
 
 # 4 Joc de proves <a name="4"></a>
 
