@@ -134,6 +134,7 @@ A continuació s'especifica la correspondència entre els codi d'error i la desc
 80 (NIE) |	Nacionalitzat espanyol però no consta el DNI.
 83 (NIE) |	Existeixen diverses filiacions pel document.
 86 (NIE) |	Menor no acompanyat (MENA actiu).
+94 (NIE) |	Cognoms no coincideixen.
 0502	 |   Error realitzant l’operació. El detall de l’error apareix al bloc descripció.
 
 ## 3.2 Verificació de dades d'identitat (IDENTITAT\_VERIFICACIO) <a name="3.2"></a>
@@ -208,6 +209,7 @@ A continuació s'especifica la correspondència entre els codi d'error i la desc
 86 (NIE) |	Menor no acompanyat (MENA actiu).
 87 (NIE) |	Nom no coincideix.
 88 (NIE) |	Data naixement no coincideix.
+94 (NIE) |	Cognoms no coincideixen.
 0502	 |   Error realitzant l’operació. El detall de l’error apareix al bloc descripció.
 
 # 4 Joc de proves <a name="4"></a>
