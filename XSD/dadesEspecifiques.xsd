@@ -79,7 +79,7 @@
 	<xs:element name="nomMare">
 		<xs:simpleType>
 			<xs:restriction base="xs:string">
-				<xs:maxLength value="40"/>
+				<xs:maxLength value="75"/>
 				<xs:minLength value="1"/>
 				<xs:whiteSpace value="preserve"/>
 			</xs:restriction>
@@ -88,7 +88,7 @@
 	<xs:element name="nomPare">
 		<xs:simpleType>
 			<xs:restriction base="xs:string">
-				<xs:maxLength value="40"/>
+				<xs:maxLength value="75"/>
 				<xs:minLength value="1"/>
 				<xs:whiteSpace value="collapse"/>
 			</xs:restriction>
@@ -143,6 +143,7 @@
 				<xs:enumeration value="M"/>
 				<xs:enumeration value="F"/>
 				<xs:enumeration value="I"/>
+				<xs:enumeration value="X"/>
 			</xs:restriction>
 		</xs:simpleType>
 	</xs:element>

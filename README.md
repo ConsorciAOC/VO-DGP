@@ -93,7 +93,7 @@ Cal tenir en compte que el camp que identifica de forma inequívoca a un ciutad�
 //dadesTitular/primerCognom | Primer cognom del titular de la sol·licitud.
 //dadesTitular/segonCognom | Segon cognom del titular de la sol·licitud.
 //dadesTitular/nacionalitat | Descripció de la nacionalitat del titular de la sol·licitud.
-//dadesTitular/sexe | F: femení / M: masculí / I: indefinit.
+//dadesTitular/sexe | F: femení / M: masculí / I: indefinit / X: indefinit.
 //dadesNaixement/data | Data de naixement del titular de la sol·licitud.
 //dadesNaixement/localitat | Descripció del municipi de naixement del titular de la sol·licitud.
 //dadesNaixement/provincia | Descripció de la província de naixement del titular de la sol·licitud.
