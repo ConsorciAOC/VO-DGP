@@ -117,6 +117,7 @@ A continuació s'especifica la correspondència entre els codi d'error i la desc
 0A (DNI) |	DNI del titular anul·lat.
 02 (NIE) |	Número de suport no comença per E o C. Número de suport erroni.
 16 (DNI) |	Número de suport erroni. El número de suport no es correspon a la documentació especificada.
+41       |  L’any de naixement no coincideix.
 59 (DNI) |	El document sol·licitat està en tràmit de renovació, retingut, retirat per autoritat judicial o anul·lat per duplicitat.<br> Aquest error es dona quan la policia marca aquests DNI per impedir-ne la renovació fins a resoldre alguna incidència vigent. Contacteu amb udea.ws@policia.es per obtenir més detalls sobre aquest document. Mai aquest contacte és per comunicar-lo al ciutadà, sinó per obtenir més detall per part del funcionari o gestor. En aquest cas, al ciutadà (persona física o jurídica) se li ha d'indicar que hi ha un problema amb la seva documentació i cal que es personi a la comissaria més propera per a la seva esmena (no cal cita prèvia).
 67 (DNI) |	DNI no assignat.
 68 (DNI) |	DNI titular no identificat.
